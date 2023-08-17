@@ -16,7 +16,7 @@ public class SignInPage extends BasePage{
     @FindBy(css = "input[placeholder='E mail']")
     private WebElement emailElement;
 
-    @FindBy(css = "//input[@placeholder='Password']")
+    @FindBy(css = "input[placeholder='Password']")
     private WebElement passwordElement;
 
     @FindBy(id = "enterbtn")

@@ -15,10 +15,10 @@ public class AlertTest extends Hooks {
 
         AlertObject alertObject = new AlertObject(TestData);
         IndexPage indexPage = new IndexPage(driver);
-        indexPage.clickSkipSignIn();
         RegisterPage registerPage = new RegisterPage(driver);
-        registerPage.goToAlertPage();
 
+        indexPage.clickSkipSignIn();
+        registerPage.goToAlertPage();
         AlertPage alertPage = new AlertPage(driver);
         alertPage.manageAlertOK();
         alertPage.manageAlertOKCancel();

@@ -41,7 +41,7 @@ public class AlertPage extends BasePage{
     }
 
     public void manageAlertSendKeys(AlertObject alertObject){
-        elementMethods.clickElement(AlertOptions.get(1));
+        elementMethods.clickElement(AlertOptions.get(2));
         elementMethods.clickElement(AlertWithTextboxBtn);
         alertMethods.AcceptFillAlert(alertObject.getAlertValue());
     }

@@ -23,14 +23,11 @@ public class FrameTest extends Hooks {
     public void FrameMethod(){
 
         FrameObject frameObject = new FrameObject(TestData);
-
-
         IndexPage indexPage = new IndexPage(driver);
-        indexPage.clickSkipSignIn();
-
         RegisterPage registerPage = new RegisterPage(driver);
-        registerPage.goToFramePage();
 
+        indexPage.clickSkipSignIn();
+        registerPage.goToFramePage();
         FramePage framePage = new FramePage(driver);
         framePage.dealSingleFrame(frameObject);
         framePage.dealMultipleFrames(frameObject);

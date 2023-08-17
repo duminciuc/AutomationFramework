@@ -1,6 +1,7 @@
 package Tests;
 
 import Base.BaseTest;
+import Base.Hooks;
 import HelpMethods.ElementMethods;
 import HelpMethods.PageMethods;
 import HelpMethods.TabMethods;
@@ -15,7 +16,7 @@ import org.openqa.selenium.devtools.v112.browser.model.WindowState;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TabTest extends BaseTest {
+public class TabTest extends Hooks {
 
     @Test
     public void tabTestsMethods(){

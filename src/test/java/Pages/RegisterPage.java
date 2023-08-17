@@ -35,9 +35,9 @@ public class RegisterPage extends BasePage{
     private WebElement FirstNameElement;
     @FindBy(xpath = "//input[@ng-model=\"LastName\"]")
     private WebElement LastNameElement;
-    @FindBy(xpath = "//input[@ng-model=\"Address\"]")
+    @FindBy(xpath = "//textarea[@ng-model=\"Adress\"]")
     private WebElement AddressElement;
-    @FindBy(xpath = "//input[@ng-model=\"Email\"]")
+    @FindBy(xpath = "//input[@ng-model=\"EmailAdress\"]")
     private WebElement EmailElement;
     @FindBy(xpath = "//input[@ng-model=\"Phone\"]")
     private WebElement PhoneNoElement;
